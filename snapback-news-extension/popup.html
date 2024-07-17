@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <title>SnapbackNews Context</title>
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+      }
+      #loading {
+        display: none;
+        text-align: center;
+        margin-top: 10px;
+      }
+      #error {
+        color: red;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SnapbackNews Context</h1>
+    <button id="getContext">Get Historical Context</button>
+    <div id="loading">Loading...</div>
+    <div id="error"></div>
+    <div id="context"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
